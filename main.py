@@ -5,9 +5,10 @@ from flask_wtf import FlaskForm
 from wtforms import StringField, FloatField, SubmitField
 from wtforms.validators import ValidationError, DataRequired
 import requests
+import os
 
-movie_api = "b8aafa6f10f8e0d81f357fd9d52efe94"
-access_token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJiOGFhZmE2ZjEwZjhlMGQ4MWYzNTdmZDlkNTJlZmU5NCIsInN1YiI6IjYyZjdiZDE2NzI0ZGUxMDA4MmY1MDA1YyIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.iZy0au9XyQl_l_Y0hX-_-NyWPmlWVXdiZ6Yh883ec04"
+movie_api = os.environ["MOVIE_API"]
+access_token = os.environ["ACCESS_TOKEN"]
 base_url = "https://api.themoviedb.org/3/search/movie?"
 id_search_url = "https://api.themoviedb.org/3/movie/"
 MOVIE_DB_IMAGE_URL = "https://image.tmdb.org/t/p/w500"
