@@ -9,3 +9,8 @@ so far I've done :
 6. when fill out the search form and submit, search the movie with movie api and get a list of movies that includes input words
 7. after select a movie in the list, make a new card of selected movie.
 8. with sqlalchemy added movies stored in database.
+
+# want to improve
+
+1. site designs - too simple so far
+2. want to update now in theaters, popular movies / currently airing, popular TV programs
