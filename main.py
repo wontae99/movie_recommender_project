@@ -8,7 +8,6 @@ import requests
 import os
 
 movie_api = os.environ["MOVIE_API"]
-access_token = os.environ["ACCESS_TOKEN"]
 base_url = "https://api.themoviedb.org/3/search/movie?"
 id_search_url = "https://api.themoviedb.org/3/movie/"
 MOVIE_DB_IMAGE_URL = "https://image.tmdb.org/t/p/w500"
