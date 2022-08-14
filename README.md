@@ -8,3 +8,4 @@ so far I've done :
 5. when click 'Add Movie', site loads search form
 6. when fill out the search form and submit, search the movie with movie api and get a list of movies that includes input words
 7. after select a movie in the list, make a new card of selected movie.
+8. with sqlalchemy added movies stored in database.
